@@ -1,0 +1,38 @@
+# Carpeta de salida de compilación
+bin/
+obj/
+.vs/
+# Archivos temporales de Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docdata
+
+# Carpetas de compilación automáticas
+TestResults/
+[Bb]in/
+[Oo]bj/
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.opt
+*.map
+*.exp
+*.lib
+*.manifest
+*.cache
+*.log
+
+# Configuraciones de lanzamiento/debug
+appsettings.Development.json
+*.runtimeconfig.json
+
+# Carpeta de paquetes NuGet locales (opcional)
+packages/
+
+# Archivos de VS Code y otros editores
+.vscode/
+*.code-workspace

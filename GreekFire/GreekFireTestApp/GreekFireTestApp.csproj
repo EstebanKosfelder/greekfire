@@ -1,0 +1,124 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GFL\CollapseEvent.cs" />
+    <Compile Remove="GFL\CollapseSpec.cs" />
+    <Compile Remove="GFL\CollapseType.cs" />
+    <Compile Remove="GFL\ContourVertex.cs" />
+    <Compile Remove="GFL\Debugger\DebugLog.cs" />
+    <Compile Remove="GFL\Debugger\SsbStepResult.cs" />
+    <Compile Remove="GFL\EdgeCollapseSpec.cs" />
+    <Compile Remove="GFL\EdgeCollapseType.cs" />
+    <Compile Remove="GFL\EdgePtrPair.cs" />
+    <Compile Remove="GFL\EventQueue.cs" />
+    <Compile Remove="GFL\Event_compare.cs" />
+    <Compile Remove="GFL\Face.cs" />
+    <Compile Remove="GFL\GreekFire.cs" />
+    <Compile Remove="GFL\GreekFireBuilder.cs" />
+    <Compile Remove="GFL\GreekFireBuilder.Triangulation.cs" />
+    <Compile Remove="GFL\HalfedgeBase.cs" />
+    <Compile Remove="GFL\Halfedge_ID_compare.cs" />
+    <Compile Remove="GFL\IFace.cs" />
+    <Compile Remove="GFL\IHalfedge.cs" />
+    <Compile Remove="GFL\IStraightSkeletonBuilderVisitor.cs" />
+    <Compile Remove="GFL\IVertex.cs" />
+    <Compile Remove="GFL\Kernel\AnglePosition.cs" />
+    <Compile Remove="GFL\Kernel\Array3.cs" />
+    <Compile Remove="GFL\Kernel\Const.cs" />
+    <Compile Remove="GFL\Kernel\ESign.cs" />
+    <Compile Remove="GFL\Kernel\Line2D.cs" />
+    <Compile Remove="GFL\Kernel\LineLineIntersectionResult.cs" />
+    <Compile Remove="GFL\Kernel\LineLineIntersector.cs" />
+    <Compile Remove="GFL\Kernel\MathEx.cs" />
+    <Compile Remove="GFL\Kernel\Polynomial1D.cs" />
+    <Compile Remove="GFL\Kernel\Rect.cs" />
+    <Compile Remove="GFL\Kernel\Vector2D.cs" />
+    <Compile Remove="GFL\KineticHalfedge.cs" />
+    <Compile Remove="GFL\KineticTriangle.CollapseEvent.cs" />
+    <Compile Remove="GFL\KineticTriangle.cs" />
+    <Compile Remove="GFL\KineticTriangle.Mesh.cs" />
+    <Compile Remove="GFL\Multinode.cs" />
+    <Compile Remove="GFL\MultinodeComparer.cs" />
+    <Compile Remove="GFL\Polygon.cs" />
+    <Compile Remove="GFL\Site.cs" />
+    <Compile Remove="GFL\SplitEventCompare.cs" />
+    <Compile Remove="GFL\StraightSkeleton.cs" />
+    <Compile Remove="GFL\StraightSkeletonBuilder.traits.cs" />
+    <Compile Remove="GFL\StraightSkeletonBuilder2D.const.cs" />
+    <Compile Remove="GFL\StraightSkeletonBuilder2D.impl.cs" />
+    <Compile Remove="GFL\StraightSkeletonBuilder2D.pred.cs" />
+    <Compile Remove="GFL\TriangulationUtils.cs" />
+    <Compile Remove="GFL\WavefrontEdge.cs" />
+    <Compile Remove="GFL\WavefrontEdge.EdgeCollapse.cs" />
+    <Compile Remove="GFL\WavefrontPropagator.cs" />
+    <Compile Remove="GFL\WavefrontSupportingLine.cs" />
+    <Compile Remove="GFL\WavefrontVertex.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="GFL\CollapseEvent.cs" />
+    <None Include="GFL\CollapseSpec.cs" />
+    <None Include="GFL\CollapseType.cs" />
+    <None Include="GFL\ContourVertex.cs" />
+    <None Include="GFL\Debugger\DebugLog.cs" />
+    <None Include="GFL\Debugger\SsbStepResult.cs" />
+    <None Include="GFL\EdgeCollapseSpec.cs" />
+    <None Include="GFL\EdgeCollapseType.cs" />
+    <None Include="GFL\EdgePtrPair.cs" />
+    <None Include="GFL\EventQueue.cs" />
+    <None Include="GFL\Event_compare.cs" />
+    <None Include="GFL\Face.cs" />
+    <None Include="GFL\GreekFire.cs" />
+    <None Include="GFL\GreekFireBuilder.cs" />
+    <None Include="GFL\GreekFireBuilder.Triangulation.cs" />
+    <None Include="GFL\HalfedgeBase.cs" />
+    <None Include="GFL\Halfedge_ID_compare.cs" />
+    <None Include="GFL\IFace.cs" />
+    <None Include="GFL\IHalfedge.cs" />
+    <None Include="GFL\IStraightSkeletonBuilderVisitor.cs" />
+    <None Include="GFL\IVertex.cs" />
+    <None Include="GFL\Kernel\AnglePosition.cs" />
+    <None Include="GFL\Kernel\Array3.cs" />
+    <None Include="GFL\Kernel\Const.cs" />
+    <None Include="GFL\Kernel\ESign.cs" />
+    <None Include="GFL\Kernel\Line2D.cs" />
+    <None Include="GFL\Kernel\LineLineIntersectionResult.cs" />
+    <None Include="GFL\Kernel\LineLineIntersector.cs" />
+    <None Include="GFL\Kernel\MathEx.cs" />
+    <None Include="GFL\Kernel\Polynomial1D.cs" />
+    <None Include="GFL\Kernel\Rect.cs" />
+    <None Include="GFL\Kernel\Vector2D.cs" />
+    <None Include="GFL\KineticHalfedge.cs" />
+    <None Include="GFL\KineticTriangle.CollapseEvent.cs" />
+    <None Include="GFL\KineticTriangle.cs" />
+    <None Include="GFL\KineticTriangle.Mesh.cs" />
+    <None Include="GFL\Multinode.cs" />
+    <None Include="GFL\MultinodeComparer.cs" />
+    <None Include="GFL\Polygon.cs" />
+    <None Include="GFL\Site.cs" />
+    <None Include="GFL\SplitEventCompare.cs" />
+    <None Include="GFL\StraightSkeleton.cs" />
+    <None Include="GFL\StraightSkeletonBuilder.traits.cs" />
+    <None Include="GFL\StraightSkeletonBuilder2D.const.cs" />
+    <None Include="GFL\StraightSkeletonBuilder2D.impl.cs" />
+    <None Include="GFL\StraightSkeletonBuilder2D.pred.cs" />
+    <None Include="GFL\TriangulationUtils.cs" />
+    <None Include="GFL\WavefrontEdge.cs" />
+    <None Include="GFL\WavefrontEdge.EdgeCollapse.cs" />
+    <None Include="GFL\WavefrontPropagator.cs" />
+    <None Include="GFL\WavefrontSupportingLine.cs" />
+    <None Include="GFL\WavefrontVertex.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GreekFire\GreekFire.csproj" />
+  </ItemGroup>
+
+</Project>
